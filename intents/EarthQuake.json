@@ -1,0 +1,48 @@
+{
+  "id": "502e6e02-de14-4cf2-9f41-6df3d31aff24",
+  "name": "EarthQuake",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "eartquake",
+          "parameters": {},
+          "lifespan": 3
+        },
+        {
+          "name": "EarthQuake-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "telegram",
+          "lang": "en",
+          "condition": "",
+          "title": "Where are you?",
+          "replies": [
+            "Inside a building",
+            "Outside",
+            "In a vehicle"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,42 @@
+{
+  "id": "73973727-f5c9-4807-bd9d-cdd175275e3f",
+  "parentId": "52a2bf60-308f-436b-9e97-02dd562d60c2",
+  "rootParentId": "507ac1ad-62c2-4686-bbe5-8a42222da640",
+  "name": "Alerts - New - Yes - Unknown",
+  "auto": true,
+  "contexts": [
+    "Alerts-New-Yes-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "telegram",
+          "lang": "en",
+          "condition": "",
+          "speech": "Sorry, I can\u0027t find the location. Try again or write \"help\" to go to the main menu."
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

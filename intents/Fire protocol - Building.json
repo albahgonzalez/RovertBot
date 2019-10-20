@@ -1,0 +1,45 @@
+{
+  "id": "e4ee589d-2a5d-4266-a588-18748eb599e7",
+  "parentId": "de56c135-27c8-4565-b807-47aaa0d67165",
+  "rootParentId": "de56c135-27c8-4565-b807-47aaa0d67165",
+  "name": "Fire protocol - Building",
+  "auto": true,
+  "contexts": [
+    "Fireprotocol-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Fireprotocol.Fireprotocol-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 3,
+          "platform": "telegram",
+          "lang": "en",
+          "condition": "",
+          "imageUrl": "https://www.scgsmartbuild.com/wp-content/uploads/2019/06/How-to-escape-fire-from-the-building-infographic.jpg"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "🔴 NEVER IGNORE A FIRE ALARM! Your first reaction should be to grab your room keys, alert the people around you, and go.\n✋ Act immediately but try to stay calm.\n🏃 Stay low in case of smoke or fumes. If you’re in bed, roll off the bed and crawl to the door.\n👗 Don’t waste time getting dressed or searching for valuables.\n🧯 Do not attempt to extinguish a fire unless you are trained to do so. Leave fire fighting to the professionals.\n⏰ To waken anyone who may be asleep, shout, “Fire! Everyone out!”"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

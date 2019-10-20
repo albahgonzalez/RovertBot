@@ -1,0 +1,100 @@
+{
+  "id": "a321249f-ae12-4521-882f-7a76ed5ae29d",
+  "parentId": "a799bc6c-bcb5-4fea-a17c-abc8c6b7633e",
+  "rootParentId": "3234cde7-2712-4bab-af0b-a045746b8421",
+  "name": "Alerts - New - Phenomenon - More - Yes",
+  "auto": true,
+  "contexts": [
+    "Alerts-New-Phenomenon-followup",
+    "Alerts-New-Phenomenon-More-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Alerts-New-Phenomenon.Alerts-New-Phenomenon-custom.Alerts-New-Phenomenon-More-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 4,
+          "platform": "telegram",
+          "lang": "en",
+          "condition": "",
+          "payload": {
+            "telegram": {
+              "text": "Pick a phenomenon",
+              "reply_markup": {
+                "inline_keyboard": [
+                  [
+                    {
+                      "text": "All",
+                      "callback_data": "All"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Tsunamis",
+                      "callback_data": "Tsunamis"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Earthquakes",
+                      "callback_data": "Earthquakes"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Floods",
+                      "callback_data": "Floods"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Fires",
+                      "callback_data": "Fires"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Hurricanes/Tornados",
+                      "callback_data": "Hurricanes/Tornados"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Storms/Rains",
+                      "callback_data": "Storm/Rains"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Volcanic eruptions",
+                      "callback_data": "Volcanic eruptions"
+                    }
+                  ]
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

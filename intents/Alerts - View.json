@@ -1,0 +1,52 @@
+{
+  "id": "981bd963-b16d-4de3-bbfa-79ef92b24373",
+  "name": "Alerts - View",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Alerts.Alerts-custom",
+      "affectedContexts": [
+        {
+          "name": "Alerts-View-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "telegram",
+          "lang": "en",
+          "condition": "",
+          "title": "What do you want to do?",
+          "replies": [
+            "Create alert",
+            "Delete alert",
+            "Help"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "These are your current alerts:\n🌊 1- Flood in San Juan\n🏗️ 2- Earthquake in Murcia"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

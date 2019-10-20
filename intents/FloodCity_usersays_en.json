@@ -1,0 +1,32 @@
+[
+  {
+    "id": "7b15c6f8-cad6-412b-84d8-fcb100958cdd",
+    "data": [
+      {
+        "text": "call emergency",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "046238e6-c175-4051-96f7-d3276b80196b",
+    "data": [
+      {
+        "text": "flood in ",
+        "userDefined": false
+      },
+      {
+        "text": "Toronto",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  }
+]

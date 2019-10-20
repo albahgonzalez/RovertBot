@@ -1,0 +1,26 @@
+[
+  {
+    "id": "01b04d59-f82a-47e2-9873-e1e33c19a760",
+    "data": [
+      {
+        "text": "delete-alert-1",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "d8e12785-9c06-4959-98d6-cc44771df93d",
+    "data": [
+      {
+        "text": "delete-alert-2",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

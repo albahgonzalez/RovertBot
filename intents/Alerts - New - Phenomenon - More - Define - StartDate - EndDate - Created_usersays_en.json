@@ -1,0 +1,40 @@
+[
+  {
+    "id": "35c4bf53-22a6-41fb-a7d5-b19762dd232e",
+    "data": [
+      {
+        "text": "Undifined",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d24148b6-00a5-4a61-aca2-0217eb55e2a9",
+    "data": [
+      {
+        "text": "12/11/2019",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5ef6ae71-292c-4c0b-8c72-b61d8038a2e7",
+    "data": [
+      {
+        "text": "Yes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

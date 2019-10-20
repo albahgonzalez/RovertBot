@@ -1,0 +1,130 @@
+[
+  {
+    "id": "b6fe46f7-e3c4-480e-84f3-299515592883",
+    "data": [
+      {
+        "text": "weather in ",
+        "userDefined": false
+      },
+      {
+        "text": "San Francisco",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "tomorrow",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "cdb93659-234b-4161-abb1-44b9179f660d",
+    "data": [
+      {
+        "text": "weather forecast in ",
+        "userDefined": false
+      },
+      {
+        "text": "San Francisco",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "tomorrow",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "7b01cdb5-219a-456c-8193-278a4c14a673",
+    "data": [
+      {
+        "text": "weather for ",
+        "userDefined": false
+      },
+      {
+        "text": "tomorrow",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "80137163-247c-4e03-bd36-7617c2831a65",
+    "data": [
+      {
+        "text": "what is the weather ",
+        "userDefined": false
+      },
+      {
+        "text": "today",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f9a157dd-1bec-44ce-989a-2248a5f2976a",
+    "data": [
+      {
+        "text": "weather forecast",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "204a106b-d3ea-4dd9-bc5b-105373eb5cf4",
+    "data": [
+      {
+        "text": "What\u0027s the weather supposed to be",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5516b8ea-7fab-406e-8bf8-9cee49ec6d6b",
+    "data": [
+      {
+        "text": "What is the weather like",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

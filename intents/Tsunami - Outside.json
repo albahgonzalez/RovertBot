@@ -1,0 +1,43 @@
+{
+  "id": "be3ea840-8e32-4fbb-817e-999684f2296c",
+  "parentId": "d8a2430c-483d-4e6a-9430-fce1312cdf22",
+  "rootParentId": "d8a2430c-483d-4e6a-9430-fce1312cdf22",
+  "name": "Tsunami - Outside",
+  "auto": true,
+  "contexts": [
+    "Tsunami-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Tsunami.Tsunami-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "telegram",
+          "lang": "en",
+          "condition": "",
+          "speech": "✋🏼 Stay where you are unless officials tell you otherwise.\n🏃🏼‍♂️ Leave immediately if you are told to do so. Evacuation routes are often marked by a wave with an arrow in the direction of higher ground.\n\nMore information: https://www.ready.gov/tsunamis"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

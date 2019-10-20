@@ -1,0 +1,63 @@
+{
+  "id": "f0ae4a1e-abce-44d9-98e2-770bdf5be8b0",
+  "parentId": "a799bc6c-bcb5-4fea-a17c-abc8c6b7633e",
+  "rootParentId": "3234cde7-2712-4bab-af0b-a045746b8421",
+  "name": "Alerts - New - Phenomenon - More - Define",
+  "auto": true,
+  "contexts": [
+    "Alerts-New-Phenomenon-More-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Alerts-New-Phenomenon.Alerts-New-Phenomenon-custom.Alerts-New-Phenomenon-More-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 4,
+          "platform": "telegram",
+          "lang": "en",
+          "condition": "",
+          "payload": {
+            "telegram": {
+              "text": "Do you want this alarm to be undefined?",
+              "reply_markup": {
+                "inline_keyboard": [
+                  [
+                    {
+                      "text": "Yes",
+                      "callback_data": "Undifined"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "No",
+                      "callback_data": "Defined"
+                    }
+                  ]
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

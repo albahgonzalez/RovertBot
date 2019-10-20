@@ -1,0 +1,43 @@
+{
+  "id": "1c94b1f0-6e37-4ebd-b0e1-18e122c53c58",
+  "parentId": "a62cf3db-f614-48d6-a63d-e0e5798f291a",
+  "rootParentId": "a62cf3db-f614-48d6-a63d-e0e5798f291a",
+  "name": "Storm - Outside",
+  "auto": true,
+  "contexts": [
+    "Storm-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Storm.Storm-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "telegram",
+          "lang": "en",
+          "condition": "",
+          "speech": "When thunder roars, go indoors. A sturdy building is the safest place to be during a thunderstorm.\nIf necessary, take shelter in a car with a metal top and sides. Do not touch anything metal.\nAvoid flooded roadways. Turn Around. Don’t Drown! Just six inches of fast-moving water can knock you down, and one foot of moving water can sweep your vehicle away."
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

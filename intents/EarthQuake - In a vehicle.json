@@ -1,0 +1,37 @@
+{
+  "id": "cd3f306b-f08e-4ce5-a39f-20ab047ecc6e",
+  "parentId": "502e6e02-de14-4cf2-9f41-6df3d31aff24",
+  "rootParentId": "502e6e02-de14-4cf2-9f41-6df3d31aff24",
+  "name": "EarthQuake - In a vehicle",
+  "auto": true,
+  "contexts": [
+    "eartquake",
+    "EarthQuake-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "EarthQuake.EarthQuake-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "🚗 Stop the vehicle and do not leave it during the quake\n🌉 Do not stop on a bridge, at an underpass, or in a tunnel, and keep away from buildings at the side of the road (danger of collapse)"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

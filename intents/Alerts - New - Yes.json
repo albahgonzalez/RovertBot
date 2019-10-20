@@ -1,0 +1,49 @@
+{
+  "id": "52a2bf60-308f-436b-9e97-02dd562d60c2",
+  "parentId": "507ac1ad-62c2-4686-bbe5-8a42222da640",
+  "rootParentId": "507ac1ad-62c2-4686-bbe5-8a42222da640",
+  "name": "Alerts - New - Yes",
+  "auto": true,
+  "contexts": [
+    "Alerts-New-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Alerts-New.Alerts-New-custom",
+      "affectedContexts": [
+        {
+          "name": "Alerts-New-Yes-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "telegram",
+          "lang": "en",
+          "condition": "",
+          "speech": "Write your location:"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,41 @@
+{
+  "id": "904789e0-3949-4e44-9b46-433ddfd7b3ac",
+  "name": "Mostrar alerta",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 1,
+          "platform": "telegram",
+          "lang": "en",
+          "condition": "",
+          "title": "🌊🌊 FLOOD ALERT IN SAN JUAN, ALICANTE 🌊🌊",
+          "subtitle": "☎️ The emergency number in San Juan is 112  If you want to know how to act in flood situation type \"How to act in a flood\"",
+          "imageUrl": "https://i.imgur.com/n9UB2fx.jpg",
+          "buttons": [
+            {
+              "text": "How to act in a flood"
+            }
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

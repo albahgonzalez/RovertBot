@@ -1,0 +1,26 @@
+[
+  {
+    "id": "d1ecd1b4-03c3-4716-8369-e552a4bdb4cf",
+    "data": [
+      {
+        "text": "There is a tsunami here",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "383660c2-429b-4425-9229-d3e5e7581881",
+    "data": [
+      {
+        "text": "Tsunami",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

@@ -1,0 +1,43 @@
+{
+  "id": "0d387204-8291-43e0-bd94-e9d814905483",
+  "parentId": "fa36366f-ba98-4e50-9a49-a0284689c78a",
+  "rootParentId": "981bd963-b16d-4de3-bbfa-79ef92b24373",
+  "name": "Alerts - View - Delete - deleteAlert - Yes",
+  "auto": true,
+  "contexts": [
+    "Alerts-View-Delete-deleteAlert-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Alerts-View.Alerts-View-custom.Alerts-View-Delete-custom.Alerts-View-Delete-deleteAlert-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "telegram",
+          "lang": "en",
+          "condition": "",
+          "speech": "Alert deleted successfully!"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

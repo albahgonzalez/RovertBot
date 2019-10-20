@@ -1,0 +1,56 @@
+{
+  "id": "f9a2ac9f-19e1-4295-8e26-2dd3f72a9f41",
+  "name": "Welcome",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [
+        {
+          "name": "Welcome-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "telegram",
+          "lang": "en",
+          "condition": "",
+          "title": "How can I help you?",
+          "replies": [
+            "Ask something",
+            "Configure alerts",
+            "Help"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Welcome to RovertBot!  \n\n⛈ In case of flood, earthquake, tsunamis, tornadoes or other weather disasters you can find information on how to act by asking me.\n☀ You can say things like \"What\u0027s the weather in Mountain View tomorrow?\" to get the weather forecast."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

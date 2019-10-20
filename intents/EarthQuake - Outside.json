@@ -1,0 +1,37 @@
+{
+  "id": "a61ad7e6-af5b-4661-a2b6-acf7117dc20b",
+  "parentId": "502e6e02-de14-4cf2-9f41-6df3d31aff24",
+  "rootParentId": "502e6e02-de14-4cf2-9f41-6df3d31aff24",
+  "name": "EarthQuake - Outside",
+  "auto": true,
+  "contexts": [
+    "eartquake",
+    "EarthQuake-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "EarthQuake.EarthQuake-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "🏢 Stay outside, do not seek shelter in a building\n🏗️ Keep away from buildings, bridges, electricity pylons, large trees, and other things that could collapse or fall\n🌊 Keep away from the shores of bodies of water"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

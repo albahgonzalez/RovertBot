@@ -1,0 +1,58 @@
+{
+  "id": "a799bc6c-bcb5-4fea-a17c-abc8c6b7633e",
+  "parentId": "3234cde7-2712-4bab-af0b-a045746b8421",
+  "rootParentId": "3234cde7-2712-4bab-af0b-a045746b8421",
+  "name": "Alerts - New - Phenomenon - More",
+  "auto": true,
+  "contexts": [
+    "Alerts-New-Phenomenon-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Alerts-New-Phenomenon.Alerts-New-Phenomenon-custom",
+      "affectedContexts": [
+        {
+          "name": "Alerts-New-Phenomenon-More-followup",
+          "parameters": {},
+          "lifespan": 2
+        },
+        {
+          "name": "Alerts-New-Phenomenon-followup",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "telegram",
+          "lang": "en",
+          "condition": "",
+          "title": "Something more?",
+          "replies": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "d024fcc1-9327-4f12-990d-cd56081b6ea1",
+    "data": [
+      {
+        "text": "Alerts",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "54c1b2e0-7322-4b35-ad22-c8c47637f1a4",
+    "data": [
+      {
+        "text": "Configure alerts",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

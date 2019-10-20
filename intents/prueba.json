@@ -1,0 +1,76 @@
+{
+  "id": "a27dd9c5-a3f6-4a20-92e5-a7b21dcfba21",
+  "name": "prueba",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 4,
+          "platform": "telegram",
+          "lang": "en",
+          "condition": "",
+          "payload": {
+            "telegram": {
+              "text": "Pick a color",
+              "reply_markup": {
+                "inline_keyboard": [
+                  [
+                    {
+                      "text": "Red",
+                      "callback_data": "Red"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Green",
+                      "callback_data": "Green"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Yellow",
+                      "callback_data": "Yellow"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Blue",
+                      "callback_data": "Blue"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Pink",
+                      "callback_data": "Pink"
+                    }
+                  ]
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

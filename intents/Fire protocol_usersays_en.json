@@ -1,0 +1,50 @@
+[
+  {
+    "id": "922cb19e-7c2f-45ef-9728-e4878f3c1771",
+    "data": [
+      {
+        "text": "Fire protocol",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f44f083d-8a66-4cb6-a5d5-288c3ab167ff",
+    "data": [
+      {
+        "text": "What to do in fire situation?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b02e23ca-4a5e-496e-876e-868ba8d8486a",
+    "data": [
+      {
+        "text": "There is a fire",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c0407302-aaff-47ce-8e71-8b2a2029aefd",
+    "data": [
+      {
+        "text": "Fire here",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

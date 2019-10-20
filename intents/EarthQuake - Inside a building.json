@@ -1,0 +1,37 @@
+{
+  "id": "d3312491-c487-4330-bafd-7c846584988c",
+  "parentId": "502e6e02-de14-4cf2-9f41-6df3d31aff24",
+  "rootParentId": "502e6e02-de14-4cf2-9f41-6df3d31aff24",
+  "name": "EarthQuake - Inside a building",
+  "auto": true,
+  "contexts": [
+    "eartquake",
+    "EarthQuake-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "EarthQuake.EarthQuake-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "🙈 Take cover (e. g. under a sturdy table) and keep calm\n🧱 Beware of falling objects (e. g. shelves, heavy furniture, televisions, stereos and light fittings) and keep away from windows and glass walls, which may shatter\n🏢 Only leave the building when the surrounding area is safe (when there are no more falling objects such as roof tiles, etc.)"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

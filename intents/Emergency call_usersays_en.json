@@ -1,0 +1,38 @@
+[
+  {
+    "id": "8e0d577e-03ef-4e4f-918e-81f73accc4c9",
+    "data": [
+      {
+        "text": "emergency call in ",
+        "userDefined": false
+      },
+      {
+        "text": "spain",
+        "alias": "geo-country",
+        "meta": "@sys.geo-country",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c6b0a435-a228-4273-8e6a-8be9623fb721",
+    "data": [
+      {
+        "text": "emergency phone in ",
+        "userDefined": false
+      },
+      {
+        "text": "spain",
+        "alias": "geo-country",
+        "meta": "@sys.geo-country",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "id": "7763bffa-4ac0-494b-b58d-b916ea0a6248",
+    "data": [
+      {
+        "text": "San Juan",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2f909bb1-4f2e-493d-bc4d-c5740909aab5",
+    "data": [
+      {
+        "text": "No",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

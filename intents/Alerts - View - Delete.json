@@ -1,0 +1,75 @@
+{
+  "id": "c04ffe4c-6106-41ff-9a65-a4fdbfb34e34",
+  "parentId": "981bd963-b16d-4de3-bbfa-79ef92b24373",
+  "rootParentId": "981bd963-b16d-4de3-bbfa-79ef92b24373",
+  "name": "Alerts - View - Delete",
+  "auto": true,
+  "contexts": [
+    "Alerts-View-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Alerts-View.Alerts-View-custom",
+      "affectedContexts": [
+        {
+          "name": "Alerts-View-custom-followup",
+          "parameters": {},
+          "lifespan": 2
+        },
+        {
+          "name": "Alerts-View-Delete-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 1,
+          "platform": "telegram",
+          "lang": "en",
+          "condition": "",
+          "title": "Alert 2",
+          "subtitle": "🏗️ Earthquake in Murcia",
+          "buttons": [
+            {
+              "text": "Delete",
+              "postback": "delete-alert-2"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "telegram",
+          "lang": "en",
+          "condition": "",
+          "title": "Alert 1",
+          "subtitle": "🌊 Flood in San Juan",
+          "buttons": [
+            {
+              "text": "Delete",
+              "postback": "delete-alert-1"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

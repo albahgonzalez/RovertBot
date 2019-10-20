@@ -1,0 +1,122 @@
+{
+  "id": "3234cde7-2712-4bab-af0b-a045746b8421",
+  "name": "Alerts - New - Phenomenon",
+  "auto": true,
+  "contexts": [
+    "Alerts-New-followup-2",
+    "Alerts-New-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Alerts-New.Alerts-New-custom",
+      "affectedContexts": [
+        {
+          "name": "Alerts-New-Phenomenon-followup",
+          "parameters": {},
+          "lifespan": 2
+        },
+        {
+          "name": "Alerts-New-Phenomenon-More-Define-StartDate-EndDate-followup",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "d84fd7e4-6ab2-46cd-b875-56ef9ff9d227",
+          "required": false,
+          "dataType": "@sys.geo-city",
+          "name": "geo-city",
+          "value": "$geo-city",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 4,
+          "platform": "telegram",
+          "lang": "en",
+          "condition": "",
+          "payload": {
+            "telegram": {
+              "text": "Pick a phenomenon",
+              "reply_markup": {
+                "inline_keyboard": [
+                  [
+                    {
+                      "text": "All",
+                      "callback_data": "All"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Tsunamis",
+                      "callback_data": "Tsunamis"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Earthquakes",
+                      "callback_data": "Earthquakes"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Floods",
+                      "callback_data": "Floods"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Fires",
+                      "callback_data": "Fires"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Hurricanes/Tornados",
+                      "callback_data": "Hurricanes/Tornados"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Storms/Rains",
+                      "callback_data": "Storm/Rains"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Volcanic eruptions",
+                      "callback_data": "Volcanic eruptions"
+                    }
+                  ]
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

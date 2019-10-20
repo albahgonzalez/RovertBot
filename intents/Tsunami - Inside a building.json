@@ -1,0 +1,50 @@
+{
+  "id": "6f116e48-57d2-4b5f-a195-30ce088095c6",
+  "parentId": "d8a2430c-483d-4e6a-9430-fce1312cdf22",
+  "rootParentId": "d8a2430c-483d-4e6a-9430-fce1312cdf22",
+  "name": "Tsunami - Inside a building",
+  "auto": true,
+  "contexts": [
+    "Tsunami-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Tsunami.Tsunami-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "telegram",
+          "lang": "en",
+          "condition": "",
+          "speech": "🙆🏼‍♀️ If you are in a tsunami area and there is an earthquake, then first protect yourself from the earthquake. Drop, Cover, and Hold On. Drop to your hands and knees. Cover your head and neck with your arms. Hold on to any sturdy furniture until the shaking stops. Crawl only if you can reach better cover, but do not go through an area with more debris.\n\n⬆️ When the shaking stops, if there are natural signs or official warnings of a tsunami, then move immediately to a safe place as high and as far inland as possible. Listen to the authorities, but do not wait for tsunami warnings and evacuation orders.\n\nMore information: https://www.ready.gov/tsunamis"
+        },
+        {
+          "type": 3,
+          "platform": "telegram",
+          "lang": "en",
+          "condition": "",
+          "imageUrl": "http://tofino.ca/files/Emergency%20prep./DropCoverHoldHighGround.png"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

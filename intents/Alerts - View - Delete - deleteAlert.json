@@ -1,0 +1,54 @@
+{
+  "id": "fa36366f-ba98-4e50-9a49-a0284689c78a",
+  "parentId": "c04ffe4c-6106-41ff-9a65-a4fdbfb34e34",
+  "rootParentId": "981bd963-b16d-4de3-bbfa-79ef92b24373",
+  "name": "Alerts - View - Delete - deleteAlert",
+  "auto": true,
+  "contexts": [
+    "Alerts-View-custom-followup",
+    "Alerts-View-Delete-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Alerts-View.Alerts-View-custom.Alerts-View-Delete-custom",
+      "affectedContexts": [
+        {
+          "name": "Alerts-View-Delete-deleteAlert-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "telegram",
+          "lang": "en",
+          "condition": "",
+          "title": "Are you sure you want to delete the Alert 2?",
+          "replies": [
+            "Yes, delete.",
+            "No, cancel."
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,103 @@
+[
+  {
+    "id": "ddadad46-9823-47b2-b15e-6f80dd8d3b1c",
+    "data": [
+      {
+        "text": "Storms",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "/Rains",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "01569e96-273a-402b-aa30-cbe27bd1c16a",
+    "data": [
+      {
+        "text": "Hurricanes/Tornados",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2cc46437-2abf-4396-9b08-e154b3cec941",
+    "data": [
+      {
+        "text": "Earthquakes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a5006e21-5eaa-49bf-b6ed-d00d219baa07",
+    "data": [
+      {
+        "text": "Tsunamis",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "240374a5-5bdf-4391-a434-d049c670e5b8",
+    "data": [
+      {
+        "text": "Fires",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3f2c80a2-39d6-44ef-9652-67c41f860bc3",
+    "data": [
+      {
+        "text": "Floods",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a64aa494-55c5-471b-80c0-ce8765d3308f",
+    "data": [
+      {
+        "text": "Volcanic eruptions",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "8f78681f-0ca2-4ded-9257-378b7fc6f713",
+    "data": [
+      {
+        "text": "All",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

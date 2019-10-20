@@ -1,0 +1,43 @@
+{
+  "id": "5936148f-cb46-44b5-b632-aa816ee120f2",
+  "parentId": "d8a2430c-483d-4e6a-9430-fce1312cdf22",
+  "rootParentId": "d8a2430c-483d-4e6a-9430-fce1312cdf22",
+  "name": "Tsunami - In a boat",
+  "auto": true,
+  "contexts": [
+    "Tsunami-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Tsunami.Tsunami-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "telegram",
+          "lang": "en",
+          "condition": "",
+          "speech": "🌊 Face the direction of the waves and head out to sea. If you are in a harbor, then go inland.\n\nMore information: https://www.ready.gov/tsunamis"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

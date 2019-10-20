@@ -1,0 +1,49 @@
+{
+  "id": "f19f8433-5e4a-48f0-a747-dce0c78eb6f0",
+  "parentId": "f0ae4a1e-abce-44d9-98e2-770bdf5be8b0",
+  "rootParentId": "3234cde7-2712-4bab-af0b-a045746b8421",
+  "name": "Alerts - New - Phenomenon - More - Define - StartDate",
+  "auto": true,
+  "contexts": [
+    "Alerts-New-Phenomenon-More-Define-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Alerts-New-Phenomenon.Alerts-New-Phenomenon-custom.Alerts-New-Phenomenon-More-custom.Alerts-New-Phenomenon-More-Define-custom",
+      "affectedContexts": [
+        {
+          "name": "Alerts-New-Phenomenon-More-Define-StartDate-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "telegram",
+          "lang": "en",
+          "condition": "",
+          "speech": "When do you want to start reciving the alerts? (mm/dd/yyyy)"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

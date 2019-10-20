@@ -1,0 +1,28 @@
+[
+  {
+    "id": "9cd9735f-9cbb-4b6f-84d9-0861fba90738",
+    "data": [
+      {
+        "text": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d2fc1942-8864-4327-87db-e1cd6e081375",
+    "data": [
+      {
+        "text": "11/12/2020",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

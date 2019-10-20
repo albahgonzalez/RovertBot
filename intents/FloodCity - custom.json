@@ -1,0 +1,36 @@
+{
+  "id": "71de30f0-bc14-4eaa-9cef-226e6da1c5c9",
+  "parentId": "463fa8f7-75df-4577-ad57-3b229c43659c",
+  "rootParentId": "463fa8f7-75df-4577-ad57-3b229c43659c",
+  "name": "FloodCity - custom",
+  "auto": true,
+  "contexts": [
+    "FloodCity-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "FloodCity.FloodCity-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "IF YOU ARE UNDER A FLOOD WARNING, FIND SAFE SHELTER RIGHT AWAY\n\n🏊‍♂️ Do not walk, swim, or drive through flood waters. Turn Around, Don’t Drown!\n🌊 Just six inches of moving water can knock you down, and one foot of moving water can - sweep your vehicle away.\n🌉 Stay off of bridges over fast-moving water.\n👮 Determine how best to protect yourself based on the type of flooding.\n🏃‍♂️ Evacuate if told to do so.\n📈 Move to higher ground or a higher floor.\n🧍 Stay where you are."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

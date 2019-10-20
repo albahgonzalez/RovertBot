@@ -1,0 +1,38 @@
+[
+  {
+    "id": "f44d5789-c909-4f3f-880b-29e13634ecba",
+    "data": [
+      {
+        "text": "My alerts",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4e05a069-73e4-4ac4-851e-19540928f3db",
+    "data": [
+      {
+        "text": "See Alerts",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b6eef047-8fe7-4b71-9e71-27c1ff2265be",
+    "data": [
+      {
+        "text": "View my alerts",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

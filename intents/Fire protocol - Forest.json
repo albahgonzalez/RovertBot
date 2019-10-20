@@ -1,0 +1,36 @@
+{
+  "id": "19118131-2aaa-4649-9e3c-37ed71002ae4",
+  "parentId": "de56c135-27c8-4565-b807-47aaa0d67165",
+  "rootParentId": "de56c135-27c8-4565-b807-47aaa0d67165",
+  "name": "Fire protocol - Forest",
+  "auto": true,
+  "contexts": [
+    "Fireprotocol-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Fireprotocol.Fireprotocol-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "🔥 Here’s what to do if caught in a wildfire:\n\n🏃‍♀️ Don\u0027t try to outrun the blaze. Instead, look for a body of water such as a pond or river to crouch in.\n🌊 If there is no water nearby, find a depressed, cleared area with little vegetation, lie low to the ground, and cover your body with wet clothing, a blanket, or soil. Stay low and covered until the fire passes.\n🚭 Protect your lungs by breathing air closest to the ground, through a moist cloth, if possible, to avoid inhaling smoke."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

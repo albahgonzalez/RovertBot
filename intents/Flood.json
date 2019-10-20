@@ -1,0 +1,38 @@
+{
+  "id": "3e8676cc-f50f-4cea-85c5-b64a79537141",
+  "name": "Flood",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "telegram",
+          "lang": "en",
+          "condition": "",
+          "speech": "IF YOU ARE UNDER A FLOOD WARNING, FIND SAFE SHELTER RIGHT AWAY\n\n🏊‍♂️ Do not walk, swim, or drive through flood waters. Turn Around, Don’t Drown!\n🌊 Just six inches of moving water can knock you down, and one foot of moving water can - sweep your vehicle away.\n🌉 Stay off of bridges over fast-moving water.\n👮 Determine how best to protect yourself based on the type of flooding.\n🏃‍♂️ Evacuate if told to do so.\n📈 Move to higher ground or a higher floor.\n🧍 Stay where you are."
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "IF YOU ARE UNDER A FLOOD WARNING, FIND SAFE SHELTER RIGHT AWAY\n\n🏊‍♂️ Do not walk, swim, or drive through flood waters. Turn Around, Don’t Drown!\n🌊 Just six inches of moving water can knock you down, and one foot of moving water can - sweep your vehicle away.\n🌉 Stay off of bridges over fast-moving water.\n👮 Determine how best to protect yourself based on the type of flooding.\n🏃‍♂️ Evacuate if told to do so.\n📈 Move to higher ground or a higher floor.\n🧍 Stay where you are."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

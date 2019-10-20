@@ -1,0 +1,35 @@
+{
+  "id": "55c349dd-dc26-4849-810d-6173745cbf6d",
+  "name": "Default Fallback Intent",
+  "auto": false,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.unknown",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": [
+            "I didn\u0027t understand. Can you try again?",
+            "I don\u0027t understand what you\u0027re saying, you can say things like\n\n▶ \"What\u0027s the weather in Paris today?\" to get the weather forecast.\n▶ \"I\u0027m in a flood\" to see information on how to act."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

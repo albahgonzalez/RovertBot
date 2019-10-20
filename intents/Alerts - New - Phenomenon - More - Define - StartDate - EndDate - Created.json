@@ -1,0 +1,55 @@
+{
+  "id": "11dcb5e8-e2aa-4a65-94f8-42950ad73c9e",
+  "parentId": "46d071f4-d166-4693-aec6-b2fdce185ae7",
+  "rootParentId": "3234cde7-2712-4bab-af0b-a045746b8421",
+  "name": "Alerts - New - Phenomenon - More - Define - StartDate - EndDate - Created",
+  "auto": true,
+  "contexts": [
+    "Alerts-New-Phenomenon-More-Define-StartDate-EndDate-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Alerts-New-Phenomenon.Alerts-New-Phenomenon-custom.Alerts-New-Phenomenon-More-custom.Alerts-New-Phenomenon-More-Define-custom.Alerts-New-Phenomenon-More-Define-StartDate-custom.Alerts-New-Phenomenon-More-Define-StartDate-EndDate-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "b7edc5ca-70de-47bc-bba5-8b9e97c42721",
+          "required": false,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Alarm created"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "🌊 Flood in San Juan."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
